@@ -6,8 +6,10 @@ const GRAVITY = 0.6;
 const JUMP_FORCE = -14;
 const OBSTACLE_SPEED = 6;
 
-const DINO_WIDTH = 80;
-const DINO_HEIGHT = 80;
+const DINO_BASE_WIDTH = 60; // or 50 or 60 — your choice
+const DINO_ASPECT_RATIO = 40 / 27; // height / width
+const DINO_WIDTH = 60;
+const DINO_HEIGHT = DINO_WIDTH*DINO_ASPECT_RATIO;
 
 const OBSTACLE_BASE_WIDTH = 60; // or 50 or 60 — your choice
 const OBSTACLE_ASPECT_RATIO = 30 / 37; // height / width
